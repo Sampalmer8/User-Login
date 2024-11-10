@@ -1,4 +1,5 @@
-document.getElementById("login").addEventListener("click", login);
+let button = document.getElementById("login");
+button.addEventListener("click", login);
 
 function login() {
   let userName = document.getElementById("user").value;
